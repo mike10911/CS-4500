@@ -1,0 +1,44 @@
+.collapse .card-body {
+    padding: 11px;
+    background-color: #fff;
+    border-radius: 6px;
+    margin-bottom: 0px;
+}
+
+
+.collapse .card-body ul li:last-child {
+    border-bottom: none;
+}
+
+.collapse .card-body ul li a {
+    text-decoration: none;
+    color: red;
+    font-weight: 550;
+}
+
+.course-options-list {
+    list-style-type: none;
+    /* Removes the default bullet points */
+    padding: 0;
+    /* Removes default padding */
+    margin: 0;
+    /* Adjusts margin as needed */
+}
+
+.course-options-list li {
+    background-color: lightgrey;
+    margin: 8px 0;
+    padding: 11px;
+    border-radius: 3px;
+}
+
+.course-options-list li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+}
+
+.course-options-list li a:hover {
+    text-decoration: underline;
+}

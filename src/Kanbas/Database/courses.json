@@ -1,0 +1,66 @@
+[
+    {
+        "_id": "CS1000",
+        "name": "Fundies 2",
+        "number": "CS1000",
+        "startDate": "2024-03-01",
+        "endDate": "2024-06-30",
+        "image": "cs.jpeg"
+    },
+    {
+        "_id": "CS4000",
+        "name": "Programming in Python",
+        "number": "CS4000",
+        "startDate": "2024-03-15",
+        "endDate": "2024-07-15",
+        "image": "cs.jpeg"
+    },
+    {
+        "_id": "THTR1011",
+        "name": "Introduction to Acting",
+        "number": "THTR1011",
+        "startDate": "2024-04-01",
+        "endDate": "2024-07-01",
+        "image": "theatre.jpeg"
+    },
+    {
+        "_id": "THTR1012",
+        "name": "Introduction to Directing",
+        "number": "THTR1012",
+        "startDate": "2024-04-15",
+        "endDate": "2024-07-15",
+        "image": "theatre.jpeg"
+    },
+    {
+        "_id": "THTR1013",
+        "name": "Introduction to Playwriting",
+        "number": "THTR1013",
+        "startDate": "2024-05-01",
+        "endDate": "2024-08-01",
+        "image": "theatre.jpeg"
+    },
+    {
+        "_id": "THTR1014",
+        "name": "Introduction to Stage Management",
+        "number": "THTR1014",
+        "startDate": "2024-05-15",
+        "endDate": "2024-08-15",
+        "image": "theatre.jpeg"
+    },
+    {
+        "_id": "THTR1015",
+        "name": "Introduction to Lighting Design",
+        "number": "THTR1015",
+        "startDate": "2024-06-01",
+        "endDate": "2024-09-01",
+        "image": "theatre.jpeg"
+    },
+    {
+        "_id": "THTR1016",
+        "name": "Introduction to Sound Design",
+        "number": "THTR1016",
+        "startDate": "2024-06-15",
+        "endDate": "2024-09-15",
+        "image": "theatre.jpeg"
+    }
+]

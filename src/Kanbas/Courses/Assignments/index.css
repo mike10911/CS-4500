@@ -1,0 +1,18 @@
+/* Styles for general button */
+.button-general {
+    background-color: lightgrey;
+    margin: 3px;
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Styles for the "Assignment" button */
+.button-assignment {
+    background-color: red;
+    color: white;
+    margin: 3px;
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+}

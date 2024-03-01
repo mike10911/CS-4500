@@ -1,0 +1,62 @@
+[
+    {
+        "_id": "CS1000",
+        "title": "Fundamentals of Programming Quiz",
+        "course": "CS1000"
+    },
+    {
+        "_id": "CS1000_Project",
+        "title": "Fundamentals of Programming Project",
+        "course": "CS1000"
+    },
+    {
+        "_id": "CS1000_Exam",
+        "title": "Fundamentals of Programming Final Exam",
+        "course": "CS1000"
+    },
+    {
+        "_id": "CS4000",
+        "title": "Python Basics Assignment",
+        "course": "CS4000"
+    },
+    {
+        "_id": "CS4000_Data_Structures",
+        "title": "Data Structures Implementation in Python",
+        "course": "CS4000"
+    },
+    {
+        "_id": "CS4000_Project",
+        "title": "Python Project: Building Applications",
+        "course": "CS4000"
+    },
+    {
+        "_id": "THTR1011",
+        "title": "Monologue Performance Preparation",
+        "course": "THTR1011"
+    },
+    {
+        "_id": "THTR1012",
+        "title": "Scene Direction Critique",
+        "course": "THTR1012"
+    },
+    {
+        "_id": "THTR1013",
+        "title": "Playwriting Character Development",
+        "course": "THTR1013"
+    },
+    {
+        "_id": "THTR1014",
+        "title": "Stage Management Checklist",
+        "course": "THTR1014"
+    },
+    {
+        "_id": "THTR1015",
+        "title": "Lighting Design Concept Presentation",
+        "course": "THTR1015"
+    },
+    {
+        "_id": "THTR1016",
+        "title": "Sound Design Theory Essay",
+        "course": "THTR1016"
+    }
+]

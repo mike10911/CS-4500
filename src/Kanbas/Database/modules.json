@@ -1,0 +1,210 @@
+[
+    {
+        "_id": "CS1000",
+        "name": "Fundamentals of Programming",
+        "description": "Introduction to programming concepts and problem-solving techniques.",
+        "course": "CS1000",
+        "lessons": [
+            {
+                "_id": "L1001",
+                "name": "Introduction to Programming",
+                "description": "Basic concepts of programming languages and problem-solving strategies.",
+                "module": "M1001"
+            },
+            {
+                "_id": "L1002",
+                "name": "Variables and Data Types",
+                "description": "Understanding variables, data types, and basic operations.",
+                "module": "M1001"
+            },
+            {
+                "_id": "L1003",
+                "name": "Control Structures",
+                "description": "Understanding conditional statements and loops.",
+                "module": "M1002"
+            }
+        ]
+    },
+    {
+        "_id": "CS4000",
+        "name": "Programming in Python",
+        "description": "Advanced programming concepts and Python language features.",
+        "course": "CS4000",
+        "lessons": [
+            {
+                "_id": "L4001",
+                "name": "Advanced Data Structures",
+                "description": "Working with advanced data structures in Python.",
+                "module": "M4001"
+            },
+            {
+                "_id": "L4002",
+                "name": "Object-Oriented Programming",
+                "description": "Understanding classes, objects, and inheritance in Python.",
+                "module": "M4002"
+            },
+            {
+                "_id": "L4003",
+                "name": "File Handling and Modules",
+                "description": "Reading from and writing to files, and creating Python modules.",
+                "module": "M4003"
+            }
+        ]
+    },
+    {
+        "_id": "THTR1011",
+        "name": "Introduction to Acting",
+        "description": "Basic principles of acting and performance techniques.",
+        "course": "THTR1011",
+        "lessons": [
+            {
+                "_id": "L1011",
+                "name": "Theater History",
+                "description": "Overview of the history of theater and acting.",
+                "module": "M1011"
+            },
+            {
+                "_id": "L1012",
+                "name": "Acting Techniques",
+                "description": "Exploration of various acting techniques and methods.",
+                "module": "M1012"
+            },
+            {
+                "_id": "L1013",
+                "name": "Character Development",
+                "description": "Understanding how to develop and portray characters.",
+                "module": "M1012"
+            }
+        ]
+    },
+    {
+        "_id": "THTR1012",
+        "name": "Introduction to Directing",
+        "description": "Fundamentals of directing and stage management.",
+        "course": "THTR1012",
+        "lessons": [
+            {
+                "_id": "L1021",
+                "name": "Directing Basics",
+                "description": "Introduction to the principles of directing.",
+                "module": "M1021"
+            },
+            {
+                "_id": "L1022",
+                "name": "Blocking and Staging",
+                "description": "Understanding blocking and staging techniques.",
+                "module": "M1021"
+            },
+            {
+                "_id": "L1023",
+                "name": "Rehearsal Management",
+                "description": "Managing rehearsals and coordinating actors.",
+                "module": "M1022"
+            }
+        ]
+    },
+    {
+        "_id": "THTR1013",
+        "name": "Introduction to Playwriting",
+        "description": "Basic principles of playwriting and script development.",
+        "course": "THTR1013",
+        "lessons": [
+            {
+                "_id": "L1031",
+                "name": "Story Structure",
+                "description": "Understanding the structure of dramatic storytelling.",
+                "module": "M1031"
+            },
+            {
+                "_id": "L1032",
+                "name": "Character Creation",
+                "description": "Developing compelling characters for stage or screen.",
+                "module": "M1031"
+            },
+            {
+                "_id": "L1033",
+                "name": "Dialogue Writing",
+                "description": "Crafting engaging and authentic dialogue for scripts.",
+                "module": "M1032"
+            }
+        ]
+    },
+    {
+        "_id": "THTR1014",
+        "name": "Introduction to Stage Management",
+        "description": "Fundamentals of stage management and production coordination.",
+        "course": "THTR1014",
+        "lessons": [
+            {
+                "_id": "L1041",
+                "name": "Stage Management Basics",
+                "description": "Introduction to the role and responsibilities of stage managers.",
+                "module": "M1041"
+            },
+            {
+                "_id": "L1042",
+                "name": "Production Planning",
+                "description": "Planning and organizing productions and rehearsals.",
+                "module": "M1042"
+            },
+            {
+                "_id": "L1043",
+                "name": "Technical Rehearsals",
+                "description": "Coordinating technical aspects during rehearsals and performances.",
+                "module": "M1042"
+            }
+        ]
+    },
+    {
+        "_id": "THTR1015",
+        "name": "Introduction to Lighting Design",
+        "description": "Basic principles of lighting design and stage illumination.",
+        "course": "THTR1015",
+        "lessons": [
+            {
+                "_id": "L1051",
+                "name": "Lighting Design Theory",
+                "description": "Understanding the principles and theory of lighting design.",
+                "module": "M1051"
+            },
+            {
+                "_id": "L1052",
+                "name": "Lighting Instruments",
+                "description": "Introduction to lighting instruments and equipment.",
+                "module": "M1051"
+            },
+            {
+                "_id": "L1053",
+                "name": "Lighting Design Practical",
+                "description": "Practical application of lighting design concepts.",
+                "module": "M1052"
+            }
+        ]
+    },
+    {
+        "_id": "THTR1016",
+        "name": "Introduction to Sound Design",
+        "description": "Fundamentals of sound design and audio production.",
+        "course": "THTR1016",
+        "lessons": [
+            {
+                "_id": "L1061",
+                "name": "Sound Design Principles",
+                "description": "Understanding the principles and aesthetics of sound design.",
+                "module": "M1061"
+            },
+            {
+                "_id": "L1062",
+                "name": "Sound Editing Techniques",
+                "description": "Techniques for editing and manipulating audio recordings.",
+                "module": "M1062"
+            },
+            {
+                "_id": "L1063",
+                "name": "Sound Mixing and Production",
+                "description": "Mixing and producing audio for various media formats.",
+                "module": "M1062"
+            }
+        ]
+    }
+]

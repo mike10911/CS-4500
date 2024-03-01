@@ -15,8 +15,10 @@ function Assignment3() {
       <TodoList />
       <TodoItem />
       <Highlight>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipitratione eaque illo minus cum, saepe totam
-        vel nihil repellat nemo explicabo excepturi consectetur. Modi omnis minus sequi maiores, provident voluptates.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipitratione
+        eaque illo minus cum, saepe totam vel nihil repellat nemo explicabo
+        excepturi consectetur. Modi omnis minus sequi maiores, provident
+        voluptates.
       </Highlight>
       <Add a={3} b={4} />
       <ConditionalOutput />

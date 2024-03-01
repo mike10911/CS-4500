@@ -1,0 +1,89 @@
+.wd-modules,
+.wd-modules * {
+    border-radius: 0%;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wd-modules {
+    margin: 5px;
+}
+
+.module-heading {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.wd-modules>li {
+    background-color: lightgray;
+    border: 1px solid gray !important;
+    border-left: none !important;
+}
+
+.wd-modules>li>div {
+    padding: 6px;
+    border-left: 1px solid gray !important;
+}
+
+.wd-modules>li>ul>li {
+    padding: 5px;
+    border-top: 1px solid gray !important;
+    border-left: 2px solid green;
+}
+
+.wd-modules>li {
+    margin-bottom: 20px;
+}
+
+.wd-modules,
+.wd-modules * {
+  border-radius: 0%;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.wd-modules {
+  margin: 5px;
+}
+
+.wd-modules > li {
+  background-color: lightgray;
+  border: 1px solid gray !important;
+  border-left: none !important;
+}
+
+.wd-modules > li > div {
+  padding: 14px;
+  border-left: 1px solid gray !important;
+}
+
+.wd-modules > li > ul > li {
+  padding: 10px;
+  border-top: 1px solid gray !important;
+  border-left: 4px solid green;
+}
+
+.wd-modules > li {
+  margin-bottom: 20px;
+}
+
+.collapse .card-body {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+
+
+.collapse .card-body ul li:last-child {
+    border-bottom: none;
+}
+
+.collapse .card-body ul li a {
+    text-decoration: none;
+    color: red;
+    font-weight: 550;
+}
