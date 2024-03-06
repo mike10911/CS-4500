@@ -12,7 +12,7 @@ import Modules from "./Modules";
 import Assignments from "./Assignments";
 import Home from "./Home";
 import "./index.css";
-function Courses() {
+function Courses({ courses }: { courses: any[]; }) {
   const { courseId } = useParams();
   const location = useLocation();
   const currentPath = location.pathname.split("/").filter(Boolean).pop();

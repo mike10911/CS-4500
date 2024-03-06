@@ -1,41 +1,22 @@
 import React, { useState } from "react";
 
 import { Link } from "react-router-dom";
-import { courses } from "../Database";
 
-function Dashboard() {
-    // TODO: update to be `courses`
-    const [courseList, setCourseList] = useState(courses);
-    const courseCount = courseList.length;
-    const dummyCourse = {
-        _id: "0",
-        name: "New Course",
-        number: "1000",
-        startDate: "2023-09-10",
-        endDate: "2023-12-15",
-        image: "/images/cs.jpeg",
-    };
-    const [course, setCourse] = useState(dummyCourse);
-
-    const addNewCourse = () => {
-        const newCourse = { ...course, _id: new Date().getTime().toString() };
-        setCourseList([...courseList, { ...course, ...newCourse }]);
-    };
-    const deleteCourse = (courseId: string) => {
-        setCourseList(courseList.filter((course) => course._id !== courseId));
-    };
-    const updateCourse = () => {
-        setCourseList(
-            courses.map((c) => {
-                if (c._id === course._id) {
-                    return course;
-                } else {
-                    return c;
-                }
-            })
-        );
-    };
-
+function Dashboard({
+    courses,
+    course,
+    setCourse,
+    addNewCourse,
+    deleteCourse,
+    updateCourse,
+}: {
+    courses: any[];
+    course: any;
+    setCourse: (course: any) => void;
+    addNewCourse: () => void;
+    deleteCourse: (course: any) => void;
+    updateCourse: () => void;
+}) {
     return (
         <div className="p-4">
             <h1>Dashboard</h1> <hr />
@@ -70,10 +51,10 @@ function Dashboard() {
             />
             <button onClick={addNewCourse}>Add</button>
             <button onClick={updateCourse}>Update</button>
-            <h2>Published Courses ({courseCount}) </h2> <hr />
+            <h2>Published Courses ({courses.length}) </h2> <hr />
             <div className="row">
                 <div className="row row-cols-1 row-cols-md-5 g-4">
-                    {courseList.map((course) => (
+                    {courses.map((course) => (
                         <div
                             key={course._id}
                             className="col"
