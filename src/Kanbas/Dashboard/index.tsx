@@ -100,7 +100,7 @@ function Dashboard({
                                             Delete
                                         </button>
                                     </Link>
-                                    <p className="card-text">{course.name}</p>
+                                    <p className="card-text">{course.number}</p>
                                     <Link
                                         to={`/Kanbas/Courses/${course._id}/Home`}
                                         className="button-general"
