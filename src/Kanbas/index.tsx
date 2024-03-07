@@ -4,7 +4,9 @@ import Dashboard from "./Dashboard";
 import Courses from "./Courses";
 import { useState } from "react";
 import { courses } from "./Database";
-import { Z_BEST_SPEED } from "zlib";
+import { Provider } from "react-redux";
+import store from "./store";
+
 function Kanbas() {
   const [courseList, setCourseList] = useState<any[]>(courses);
   const [course, setCourse] = useState({
@@ -30,6 +32,7 @@ function Kanbas() {
   };
 
   return (
+    <Provider store={store}>
     <div className="d-flex">
       <KanbasNavigation />
       <div style={{ flexGrow: 1 }}>
@@ -49,6 +52,7 @@ function Kanbas() {
         </Routes>
       </div>
     </div>
+    </Provider>
   );
 }
 export default Kanbas;
