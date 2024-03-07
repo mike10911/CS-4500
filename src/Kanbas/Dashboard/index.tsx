@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import { Link } from "react-router-dom";
+import "./index.css";
 
 function Dashboard({
     courses,
@@ -21,6 +22,7 @@ function Dashboard({
         <div className="p-4">
             <h1>Dashboard</h1> <hr />
             <h5>Course</h5>
+            <div className="form-group">
             <input
                 value={course.name}
                 className="form-control"
@@ -49,8 +51,9 @@ function Dashboard({
                     setCourse({ ...course, endDate: e.target.value })
                 }
             />
-            <button onClick={addNewCourse}>Add</button>
-            <button onClick={updateCourse}>Update</button>
+            </div>
+            <button className="button-red" onClick={addNewCourse}> + Add</button>
+            <button className= "button-general" onClick={updateCourse}>Update</button>
             <h2>Published Courses ({courses.length}) </h2> <hr />
             <div className="row">
                 <div className="row row-cols-1 row-cols-md-5 g-4">
@@ -83,6 +86,7 @@ function Dashboard({
                                                 event.preventDefault();
                                                 setCourse(course);
                                             }}
+                                            className="button-general"
                                         >
                                             Edit
                                         </button>
@@ -91,6 +95,7 @@ function Dashboard({
                                                 event.preventDefault();
                                                 deleteCourse(course._id);
                                             }}
+                                            className="button-red"
                                         >
                                             Delete
                                         </button>
@@ -98,7 +103,7 @@ function Dashboard({
                                     <p className="card-text">{course.name}</p>
                                     <Link
                                         to={`/Kanbas/Courses/${course._id}/Home`}
-                                        className="btn btn-primary"
+                                        className="button-general"
                                     >
                                         View Course{" "}
                                     </Link>

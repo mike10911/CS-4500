@@ -1,0 +1,17 @@
+.button-red {
+    background-color: red;
+    color: white;
+    margin: 3px;
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+}
+
+.button-general {
+    background-color: lightgrey;
+    margin: 3px;
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+}

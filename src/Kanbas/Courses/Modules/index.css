@@ -87,3 +87,20 @@
     color: red;
     font-weight: 550;
 }
+
+.button-general {
+  background-color: lightgrey;
+  margin: 3px;
+  padding: 6px;
+  border: none;
+  border-radius: 4px;
+}
+
+.button-add {
+  background-color: red;
+  color: white;
+  margin: 3px;
+  padding: 6px;
+  border: none;
+  border-radius: 4px;
+}

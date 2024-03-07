@@ -33,10 +33,10 @@ function ModuleList() {
         <>
             {
                 <>
-                    <button className="btn btn-primary" type="button">
+                    <button className="button-general" type="button">
                         Collapse All
                     </button>
-                    <button className="btn btn-primary" type="button">
+                    <button className="button-general" type="button">
                         View Progress
                     </button>
                     <label htmlFor="select-one-genre"></label>
@@ -47,7 +47,7 @@ function ModuleList() {
                             Publish All
                         </option>
                     </select>
-                    <button className="btn btn-primary" type="button">Module</button>
+                    <button className="button-general" type="button">Module</button>
                 </>
             }
             <hr />
@@ -56,12 +56,12 @@ function ModuleList() {
                 onClick={() => {
                     addModuleFactory({ ...module, course: courseId });
                 }}
-                className="btn btn-primary"
+                className="button-add"
             >
-                Add
+                + Add
             </button>
             <button
-                className="btn btn-primary"
+                className="button-general"
                 onClick={() => updateModuleFactory(module)}
             >
                 Update
@@ -96,7 +96,7 @@ function ModuleList() {
                       <>
                       <div className="btn btn-group">
                       <button
-                        className="btn btn-danger"
+                        className="button-general"
                         onClick={() => deleteModuleFactory(module._id)}
                       >
                         Delete
@@ -104,7 +104,7 @@ function ModuleList() {
                         onClick={(event) => {
                           setModuleFactory(module);
                         } }
-                        className="btn btn-primary"
+                        className="button-general"
                       >
                           Edit
                         </button>
