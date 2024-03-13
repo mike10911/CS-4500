@@ -13,7 +13,7 @@ import { LabState } from "../store";
 function Assignment3() {
   const { todos } = useSelector((state: LabState) => state.todosReducer);
   return (
-    <div>
+    <div className="container">
       <h2>Assignment 3</h2>
       <ul className="list-group">
         {todos.map((todo) => (
